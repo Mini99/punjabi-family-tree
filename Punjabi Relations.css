@@ -1,0 +1,231 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    height: 100%;
+    background: #fff;
+    color: #545454;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 17px;
+    line-height: 1.5;
+    margin: 0 auto;
+    padding: 2em 2em 4em;
+}
+
+.footer{
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    line-height: 2;
+    position: relative;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: gray;
+    color: white;
+    text-align: center;
+}
+
+.content{
+    position: relative;
+}
+
+.boxUp {
+    margin-left: 22%;
+    width: 475px;
+    height: 150px;
+    border: solid 3px #000;
+    border-color: #ccc transparent transparent #ccc;
+    border-radius: 25%/79.1666667% 0% 0% 0%;
+}
+
+.boxDown {
+    margin-top: 3.4%;
+    margin-left: 22%;
+    width: 475px;
+    height: 150px;
+    border: solid 3px #000;
+    border-color: transparent transparent #ccc #ccc;
+    border-radius: 0% 0% 0% 25%/79.1666667%;
+}
+
+#wrapper {
+    margin-left: 56.8%;
+    position: absolute;
+}
+
+.ytd{
+    transform: rotate(13deg);
+    width: 200px;
+    margin-right: 32%;
+}
+
+.ytm{
+    transform: rotate(347deg);
+    width: 200px;
+    margin-left: 32%;
+}
+
+.you {
+    margin-left: 19.5%;
+    position: static;
+}
+
+.mata{
+    margin-left: 56.8%;
+    position: static;
+}
+
+.papa{
+    padding-top: 27%;
+    margin-left: 100%;
+    position: static;
+}
+
+.dada{
+    margin-right: 225px;
+    position: static;
+}
+
+.dadi{
+    margin-right: px;
+    position: static;
+}
+
+.nana{
+    margin-right: 325px;
+    position: static;
+}
+
+.nani{
+    position: static;
+}
+
+.r{
+    margin-left: 50%;
+}
+
+.right{
+    float:right;
+}
+
+.left{
+    float:left;
+}
+
+.btn {
+  border: none;
+  background-color: inherit;
+  padding: 14px 28px;
+  font-size: 16px;
+  cursor: pointer;
+  display: inline-block;
+}
+
+.btn:hover {
+    background: #ccc;
+}
+
+button .comment {display: none;}
+button:hover .replies {display: none;}
+button:hover .comment {display: inline;}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {background-color: #ddd;}
+.dropdown:hover .dropdown-content {display: block;}
+.dropdown:hover .dropbtn {background-color: #3e8e41;}
+
+
+
+
+
+
+
+
+
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+ul li {
+  display: block;
+  position: relative;
+  float: left;
+}
+li ul { display: none; }
+
+ul li a {
+  display: block;
+  text-decoration: none;
+  white-space: nowrap;
+  color: #545454;
+}
+
+ul li a:hover { background: #eee; }
+li:hover > ul {
+  display: block;
+  position: absolute;
+}
+
+li:hover li { float: none; }
+
+li:hover a { background: #f1f1f1; }
+
+.main-navigation li ul li { border-top: 0; }
+
+ul ul ul {
+  left: 100%;
+  top: 0;
+}
+
+ul:before,
+ul:after {
+  content: " "; /* 1 */
+  display: table; /* 2 */
+}
+
+ul:after { clear: both; }
+
+ul li:hover > a {
+    background-color: #ccc;
+}
+
+table{
+    font-size: 18px;
+    border-collapse: collapse;
+    width: 58%;
+}
+
+th, tr, td{
+    border: 1px solid #ccc;
+    border-collapse: collapse;
+    text-align: left;
+    padding: 9px;
+}
+
+.parent {
+  background-color: #dddddd;
+}
