@@ -1,3 +1,8 @@
+/*@font-face {
+    font-family: 'punjabi';
+    src: url(http://manvirdhillon.com/fonts/pb_norm.ttf);
+}*/
+
 html {
     scroll-behavior: smooth;
 }
@@ -211,6 +216,10 @@ ul:after { clear: both; }
 
 ul li:hover > a {
     background-color: #ccc;
+}
+
+.pb{
+  font-family: "punjabi";
 }
 
 table{
